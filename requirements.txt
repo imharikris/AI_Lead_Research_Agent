@@ -13,10 +13,9 @@ gitdb==4.0.12
 GitPython==3.1.46
 google-api-core==2.28.1
 google-api-python-client==2.187.0
-google-auth==2.47.0
+google-auth==2.41.1
 google-auth-httplib2==0.3.0
 google-auth-oauthlib==1.2.3
-google-genai==1.57.0
 googleapis-common-protos==1.72.0
 greenlet==3.3.0
 gspread==6.2.1
@@ -86,6 +85,5 @@ uritemplate==4.2.0
 urllib3==2.6.3
 uuid_utils==0.12.0
 watchdog==6.0.0
-websockets==15.0.1
 xxhash==3.6.0
 zstandard==0.25.0
