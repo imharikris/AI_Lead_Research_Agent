@@ -7,4 +7,5 @@ def call_llm(prompt: str) -> str:
         contents=prompt,
         config=genai_types.GenerateContentConfig(max_output_tokens=300,temperature=0.3 )
     )
-    return response.text.strip()
+    cleaned_text = response.text.replace("```", "").strip()
+    return cleaned_text

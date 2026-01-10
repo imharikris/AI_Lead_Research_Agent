@@ -10,3 +10,5 @@ if st.button("Run company research") and company_name:
     st.write(result.get("research_summary", "No summary available."))
     st.subheader("Email Draft:")
     st.write(result.get("email_draft", "No email draft available."))
+    st.subheader("Sources:")
+    st.write(result.get("sources", []))
